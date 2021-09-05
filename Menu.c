@@ -1,4 +1,4 @@
-#include<studio.h>
+#include<stdio.h>
 int main(){
 int choice,sum=0;
 char ch;
@@ -30,7 +30,7 @@ default: printf("This item is not available. Please select an item from the menu
 printf("\nWould you like to order anything else?\n(Y/N)");
 scanf(" %c",&ch);
 if (ch== 'n' || ch=='N'){ 
-printf("Your total bill is Rs.%d", sum);
+printf("Your total bill is Rs.%d",sum);
 break; }
 }while(ch='Y'|| ch =='y');
 return 0;
